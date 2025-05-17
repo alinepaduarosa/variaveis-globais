@@ -31,8 +31,8 @@
     --cor-4q-grafico: #C70E0E;
     --cor-supervisores-mes-grafico: #B2DFDB;
     --cor-operadores-mes-grafico: #F0F4C3;
-    --cabecalho-tabela: #212121;
-    --cabecalho-tabela-fonte: #ffffff;
+    --cabecalho-tabela: #bfbdbd;
+    --cabecalho-tabela-fonte: #181818;
 }
 
 .tema-escuro {
@@ -68,6 +68,6 @@
     --cor-4q-grafico: #EF5350;
     --cor-supervisores-mes-grafico: #26A69A;
     --cor-operadores-mes-grafico: #CDDC39;
-    --cabecalho-tabela: #494949;
+    --cabecalho-tabela: #000;
     --cabecalho-tabela-fonte: #ffffff;
 } 
