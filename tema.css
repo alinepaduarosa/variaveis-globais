@@ -32,6 +32,7 @@
     --cor-supervisores-mes-grafico: #B2DFDB;
     --cor-operadores-mes-grafico: #F0F4C3;
     --cabecalho-tabela: #212121;
+    --cabecalho-tabela-fonte: #ffffff;
 }
 
 .tema-escuro {
@@ -68,4 +69,5 @@
     --cor-supervisores-mes-grafico: #26A69A;
     --cor-operadores-mes-grafico: #CDDC39;
     --cabecalho-tabela: #494949;
+    --cabecalho-tabela-fonte: #ffffff;
 } 
