@@ -1,0 +1,159 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    min-height: 100%;
+    padding: 60px;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--container-background-color);
+    background-image: var(--bg-fundo);
+    background-repeat: repeat;
+    background-size: 10%;
+}
+
+#info-dashboard {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+#statusEtl {
+    color: var(--statusEtl-color);
+}
+
+#Filtro99 select {
+    border: none;
+    padding: 5px 20px;
+    background-color: var(--filtro99-background-color);
+    border-radius: 8px;
+    color: var(--filtro99-color);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    pointer-events: none;
+}
+
+#mudarTema {
+    border: none;
+    background-color: var(--filtro99-background-color);
+    border-radius: 50%;
+    color: var(--filtro99-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+#mudarTema i {
+    font-size: 20px;
+}
+
+#info-dashboard table tr {
+    background-color: transparent;
+}
+
+#titulo-dashboard {
+    color: var(--titulo-color);
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+#conteudo-dashboard {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    justify-content: stretch;
+    gap: 16px;
+}
+
+#filtros-dashboard {
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    justify-content: start;
+    gap: 16px;
+    border-radius: 12px;
+    padding: 32px;
+    background-color: var(--filtros-background-color);
+    border: 5px solid var(--filtros-border-color);
+    color: var(--filtros-color);
+    box-shadow: var(--box-shadow);
+}
+
+#filtros-dashboard div {
+    width: 100%;
+}
+
+#filtros-dashboard label {
+    font-weight: 500;
+    color: var(--filtros-color);
+}
+
+#filtros-dashboard select {
+    border: 1px solid var(--filtros-border-color);
+    background-color: var(--filtros-select-background-color);
+    border-radius: 8px;
+    color: var(--filtros-color);
+    padding: 5px 20px;
+    width: 100%;
+}
+
+#cards-dashboard {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: stretch;
+    gap: 16px;
+}
+
+#cards-dashboard .card {
+    flex: 1;
+    min-width: 280px;
+    width: 100%;
+    background: var(--card-background-color);
+    border-radius: 12px;
+    padding: 16px;
+    border: 5px solid var(--card-border-color);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cards-dashboard .card i {
+    font-size: 30px;
+}
+
+
+
+#statusEtlTable thead {
+    display: none;
+}
+
+#cards-dashboard .card table th, .card table td {
+    text-align: center;
+}
+
+.card table th {
+    font-size: 16px;
+    font-weight: 300 !important;
+}
+
+.card table td {
+    font-size: 48px;
+}
+
+.card table tr {
+    background-color: var(--card-background-color) !important;
+}
