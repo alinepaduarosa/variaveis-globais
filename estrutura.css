@@ -118,7 +118,6 @@ html, body {
 
 #cards-dashboard .card {
     flex: 1;
-    min-width: 280px;
     width: 100%;
     background: var(--card-background-color);
     border-radius: 12px;
