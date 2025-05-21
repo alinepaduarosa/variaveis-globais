@@ -33,6 +33,8 @@
     --cor-operadores-mes-grafico: #F0F4C3;
     --cabecalho-tabela: #bfbdbd;
     --cabecalho-tabela-fonte: #181818;
+    --cor-operador-mes-grafico: #e6f2b5;
+    --cor-supervisor-mes-grafico: #b9e2d6;
 }
 
 .tema-escuro {
@@ -70,4 +72,6 @@
     --cor-operadores-mes-grafico: #CDDC39;
     --cabecalho-tabela: #000;
     --cabecalho-tabela-fonte: #ffffff;
+    --cor-operador-mes-grafico: #5f7c1c;
+    --cor-supervisor-mes-grafico: #1f7665;
 } 
