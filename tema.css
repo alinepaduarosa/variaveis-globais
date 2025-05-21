@@ -25,10 +25,10 @@
     --bg-botao-hover: #1565C0;
     --color-botao: #ffffff;
     --paginacao-color: #181818;
-    --cor-1q-grafico: #8DC63F;
-    --cor-2q-grafico: #D7DF23;
-    --cor-3q-grafico: #F58220;
-    --cor-4q-grafico: #C70E0E;
+    --cor-1q-grafico: #A8DA6A;
+    --cor-2q-grafico: #E7ED6D;
+    --cor-3q-grafico: #F8A45D;
+    --cor-4q-grafico: #E57373;
     --cor-supervisores-mes-grafico: #B2DFDB;
     --cor-operadores-mes-grafico: #F0F4C3;
     --cabecalho-tabela: #bfbdbd;
@@ -64,12 +64,12 @@
     --bg-botao-hover: #666666;
     --color-botao: #ffffff;
     --paginacao-color: #ffffff;
-    --cor-1q-grafico: #B9E769;
-    --cor-2q-grafico: #FFF176;
-    --cor-3q-grafico: #FFB74D;
-    --cor-4q-grafico: #EF5350;
-    --cor-supervisores-mes-grafico: #1f7665;
-    --cor-operadores-mes-grafico: #5f7c1c;
+    --cor-1q-grafico: #76b338;
+    --cor-2q-grafico: #bfc422;
+    --cor-3q-grafico: #e06b1d;
+    --cor-4q-grafico: #a61111;
+    --cor-supervisores-mes-grafico: #145b4c;
+    --cor-operadores-mes-grafico: #7c9f24;
     --cabecalho-tabela: #000;
     --cabecalho-tabela-fonte: #ffffff;
 } 
